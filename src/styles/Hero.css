@@ -1,0 +1,27 @@
+.heroSection{
+    background-image: url('../images/heroCat.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center top;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding-left: 2rem;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+.contactButton{
+    background-color: darkred;
+    color: white;
+    font-weight: 600;
+    padding: .5rem;
+    border-radius: 5px;
+    border: none;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    
+}
+

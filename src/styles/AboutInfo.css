@@ -1,0 +1,25 @@
+.aboutInfo {
+    background-image: url(../images/kitty.png);
+    background-image: url('../images/kitty.png');
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.aboutInfoText {
+    max-width: 300px; /* Limits width of the text column */
+    color: black; /* Ensures text is readable over the background */
+    display: flex;
+    padding-right: 3rem;
+    flex-direction: column;
+    justify-content: center; /* Centers text vertically */
+    text-align: left; /* Aligns text to the right within the column */
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7); /* Text shadow for readability */
+    line-height: 1.8;
+}
